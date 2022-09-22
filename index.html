@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Page</title>
+  </head>
+
+  <body>
+    <header>
+      <table id="header" cellspacing="35">
+        <thead>
+          <tr>
+            <td><img src="./photo.png" alt="Dishant Yadav" /></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <h1 aling="right">Dishant Yadav</h1>
+              <p>
+                <big
+                  >A aspiring web developer currently learning
+                  <strong>HTML and DSA in JAVA</strong></big
+                >
+              </p>
+            </td>
+          </tr>
+        </thead>
+      </table>
+      <hr />
+    </header>
+
+    <main>
+      <h2>Skills</h2>
+      <ul>
+        <h4>
+          <li>GIT</li>
+          <li>GITHUB</li>
+          <li>JAVA</li>
+          <li>PYTHON</li>
+        </h4>
+      </ul>
+
+      <hr />
+
+      <h2>Areas of Interest</h2>
+      <ul>
+        <h4>
+          <li>Mobile Development</li>
+          <dl>Development of apps for Mobile.</dl>
+          <li>Web Development</li>
+          <dl>Development of websites.</dl>
+          <li>Open Source</li>
+          <dl>Contribution to open souce apps and websites.</dl>
+          <li>UI/UX</li>
+          <dl>The designing of the interface of app/website</dl>
+        </h4>
+      </ul>
+
+      <hr />
+
+      <h2>Projects</h2>
+
+      <ol>
+        <h4>
+          <a
+            href="https://github.com/dishant-yadav/rock-paper-scissor.git"
+            alink="black"
+            vlink="red"
+          >
+            <li>Rock, Paper and Scissor</li>
+          </a>
+          <dl>A bot to play rock, Paper and Scissor with you.</dl>
+          <a
+            href="https://github.com/dishant-yadav/Count-Down-Timer"
+            alink="black"
+            vlink="red"
+          >
+            <li>Count Down Timer</li>
+          </a>
+          <dl>A CLI based Count Timer written in JAVA.</dl>
+        </h4>
+      </ol>
+    </main>
+
+    <footer>
+      <hr />
+
+      <strong>Contact me</strong>
+      <form
+        action="mailto:dishantyadav599@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="user name">Name : </label>
+        <input
+          type="text"
+          name="user name"
+          required
+          width="20px"
+          placeholder="Your Name"
+        /><br />
+        <label for="email">Email : </label>
+        <input
+          type="email"
+          name="email"
+          required
+          width="10px"
+          placeholder="Your Email ID"
+        /><br />
+        <label for="age verification">Are you above 13 : </label>
+        <input
+          type="radio"
+          name="age verification"
+          required
+          id="age verification"
+        />Yes
+        <input
+          type="radio"
+          name="age verification"
+          required
+          id="age verification"
+        />No<br />
+        <label for="newsletter subscription"
+          >Would you like to subscribe for the weekly newsletter</label
+        >
+        <input type="checkbox" name="newslettersubsription" /><br />
+        <label for="message">Your message : </label><br />
+        <textarea
+          name="message"
+          cols="35"
+          rows="10"
+          placeholder="Your valueable feedback and suggestios here"
+        ></textarea
+        ><br />
+        <label for="reset"></label>
+        <input type="reset" name="reset" />
+        <label for="submit"></label>
+        <input type="submit" value="Done" name="submit" />
+        <label for="option"></label>
+      </form>
+    </footer>
+  </body>
+</html>
